@@ -1,0 +1,23 @@
+{
+  "name": "smsir_mh_js",
+  "version": "1.0.0",
+  "description": "This package is for using SMS service from sms.ir should get API and templetId from sms.ir  ",
+  "main": "smsir_mh_js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m6336mohammad/smsir_mh_js.git"
+  },
+  "keywords": [
+    "sms",
+    "api",
+    "sms.ir"
+  ],
+  "author": "Mohammad Hadi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
