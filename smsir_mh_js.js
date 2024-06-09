@@ -32,4 +32,4 @@ const SendAlertSMSIR = (to, message, api_key, templateId) => {
 module.exports = { SendAlertSMSIR };
 
 // Example usage (commented out):
-SendAlertSMSIR("09100059323", "35f389", "your_api_key_here", "750016");
+// SendAlertSMSIR("09100059323", "35f389", "your_api_key_here", "750016");
