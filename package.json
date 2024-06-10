@@ -1,6 +1,6 @@
 {
   "name": "smsir_mh_js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This package is for using SMS service from sms.ir should get API and templetId from sms.ir  ",
   "main": "smsir_mh_js.js",
   "scripts": {
