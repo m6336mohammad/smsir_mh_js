@@ -1,4 +1,4 @@
-import { SendAlertSMSIR } from './smsir_mh_js';
+import SendAlertSMSIR from './smsir_mh_js.js';
 
 const apiKey = '1212121212121212121';  //Example API Key get from sms.ir
 const to = '09100059323';  //Example Phone Number
