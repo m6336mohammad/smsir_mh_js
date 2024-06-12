@@ -2,7 +2,9 @@
 
 This package is for using SMS service from sms.ir
 should get API and templetId from sms.ir
-test by jest
+
+## Test Resalt
+Test is ok
 
 ## Author
 
@@ -18,12 +20,14 @@ To install the package, run:
 
 #npm
 npm install axios
-npm install smsir_mh_js
+npm install smsir_mh_js@latest
+
 
 
 #yarn
 yarn add axios
-yarn add smsir_mh_js
+yarn add smsir_mh_js@latest
+
 
 
 # Example use:
