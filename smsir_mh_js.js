@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const SendAlertSMSIR = (to, message, api_key, templateId) => {
+const SendAlertSMSIR = async (to, message, api_key, templateId) => {
   const data = JSON.stringify({
     "mobile": to,
     "templateId": templateId,
@@ -20,13 +20,12 @@ const SendAlertSMSIR = (to, message, api_key, templateId) => {
     data: data
   };
 
-  axios(config)
-    .then(response => {
-      console.info(JSON.stringify(response.data));
-    })
-    .catch(error => {
-      console.error(error);
-    });
+  try {
+    const response = await axios(config);
+    console.info(JSON.stringify(response.data));
+  } catch (error) {
+    console.error(error);
+  }
 };
 
 module.exports = { SendAlertSMSIR };
