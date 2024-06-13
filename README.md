@@ -4,10 +4,20 @@ This package is for using SMS service from sms.ir
 should get API and templetId from sms.ir
 
 ## Test Resalt
-Test is ok
+
+PASS  ./SendAlertSMSIR.spec.js
+  SendAlertSMSIR
+    √ should send a POST request with correct data (5 ms)
+    √ should log an error if the request fails
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.78 s
+Ran all test suites.  
+
 
 ## Author
-
 Mohammad Hadi  
 Email: mmm.6336@gmail.com
 
