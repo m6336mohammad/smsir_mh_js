@@ -15,7 +15,7 @@ Donate address : TS3ZnWGHfDnW7FcG8p6BYrWAis2nzX3gDG  //USDT TRC20
 
 ## Installation
 for install last vertion 
-npm install smsir_mh_js@latest
+`npm install smsir_mh_js@latest`
 
 To install the package, run:
 ```bash
