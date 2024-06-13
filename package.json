@@ -4,7 +4,7 @@
   "description": "This package is for using SMS service from sms.ir should get API and templetId from sms.ir javaScript,ES6 support ",
   "main": "smsir_mh_js.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
