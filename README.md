@@ -5,6 +5,8 @@ should get API and templetId from sms.ir
 
 ## Test Resalt
 
+npm test
+
 PASS  ./SendAlertSMSIR.spec.js
   SendAlertSMSIR
     √ should send a POST request with correct data (5 ms)
